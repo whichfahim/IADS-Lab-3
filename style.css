@@ -8,25 +8,97 @@
   width: 100%;
   height: 100vh;
   /* background-image: url(https://miro.medium.com/v2/resize:fit:1400/1*RaR21HexwFW0-MUHyzJgfw.jpeg); */
-  /* background-image: url(https://vectorsfile.com/file-view/time-travel-logo-design-cdr-vec.jpg); */
-  /* background-position: center; */
-  /* background-size: fill; */
-  /* background-repeat: no-repeat; */
+  background-image: url(https://images.unsplash.com/photo-1583997052103-b4a1cb974ce5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
   /* opacity: 0.6; */
 }
 
+/* .hero-img-container {
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 90vh;
+}
+*/
+
 .hero--img {
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+/* .hero--img {
   width: 100%;
   height: 100%;
   display: inline-block;
-}
+} */
 
 .header--text-box {
   text-align: center;
-  color: rgb(57, 36, 8);
+  color: #f2e1d1;
   width: 50%;
+  background-color: #536977;
+  padding: 10px;
+  border-radius: 5px;
+  /* opacity: 0.7; */
   /* margin-left: 100px; */
+}
+
+.header--text-box > * {
+  opacity: 1;
+}
+
+.section-benefits {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://images.unsplash.com/photo-1498673394965-85cb14905c89?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.benefits-box {
+  background-color: rgba(211, 233, 245, 0.6);
+  /* font-size: 1.2rem; */
+  padding: 1.5rem 2rem 1.5rem 2rem;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s;
+  color: #536977;
+}
+
+.benefits-box--icon-container {
+  font-size: 40px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* display: inline-block; */
+  margin-bottom: 16px;
+  margin-top: 10px;
+}
+
+.benefits-box--icon {
+}
+
+.benefits-box--heading {
+  padding: 5px;
+  font-size: 1.2rem;
+}
+
+.navbar-logo {
+  width: 90px;
+  height: auto;
 }
