@@ -30,7 +30,7 @@
 
 .header--text-box {
   text-align: center;
-  color: #f2e1d1;
+  color: #ffffff;
   width: 33%;
   /* background-color: rgba(83, 105, 119, rgba(211, 233, 245, 0.6)); */
   background-color: rgba(83, 105, 119, 0.8);
@@ -159,7 +159,7 @@
 .section-gallery--header {
   position: absolute;
   top: 5rem;
-  color: rgb(223, 240, 250);
+  color: #fff;
 }
 
 .gallery-container {
