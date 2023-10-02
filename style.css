@@ -68,6 +68,11 @@
   height: 300px;
 }
 
+.benefits-box:hover {
+  transform: translateY(-0.3rem);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
 .benefits-box--icon-container {
   font-size: 40px;
   height: 60px;
