@@ -170,6 +170,7 @@
   height: 250px;
   background-color: rgba(83, 105, 119, 0.8);
   border-radius: 10px;
+  transition: transform 0.3s;
 }
 
 .gallery-img {
@@ -177,10 +178,9 @@
   padding: 12px;
   object-fit: cover;
   height: 245px;
-  transition: transform 0.3s;
 }
 
-.gallery-img:hover {
+.picture-frame:hover {
   transform: scale(1.2);
   /* box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); */
   z-index: 2;
