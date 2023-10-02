@@ -142,4 +142,47 @@
 .navigation__main-nav li a:active {
   border-bottom: 2px solid rgba(255, 255, 255, 0.8);
 }
+
+.section-gallery {
+  height: 90vh;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(83, 105, 119, 1),
+    rgba(48, 48, 48, 1)
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.section-gallery--header {
+  position: absolute;
+  top: 5rem;
+  color: rgb(223, 240, 250);
+}
+
+.gallery-container {
+  width: 90%;
+}
+
+.picture-frame {
+  height: 250px;
+  background-color: rgba(83, 105, 119, 0.8);
+  border-radius: 10px;
+}
+
+.gallery-img {
+  width: 100%;
+  padding: 12px;
+  object-fit: cover;
+  height: 245px;
+  transition: transform 0.3s;
+}
+
+.gallery-img:hover {
+  transform: scale(1.2);
+  /* box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); */
+  z-index: 2;
+}
 /* ============== */
