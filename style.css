@@ -33,20 +33,30 @@
 
 /* About page styling  */
 .aboutBody {
-  background: linear-gradient(
+  /* background: linear-gradient(
     120deg,
-    rgba(67, 180, 92, 0.652),
-    rgba(35, 114, 188, 0.49)
-  );
+    rgba(165, 177, 168, 0.652),
+    rgba(187, 189, 191, 0.792)
+  ); */
+
+  background-image: url("img/section-benefits Palette.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  z-index: 1;
+  max-width: 100%;
+  overflow: auto;
 }
 
 /* Navigation menu styles */
 nav {
-  background-color: rgba(59, 193, 115, 0.212);
+  background-color: rgba(212, 235, 222, 0.94);
   display: flex;
   justify-content: space-between;
   align-items: left;
   padding: 30px 30px;
+  position: sticky;
+  top: 0;
 }
 
 .menu {
