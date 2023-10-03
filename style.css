@@ -213,7 +213,7 @@
 }
 
 /* Navigation menu styles */
-nav {
+.about-nav {
   background-color: rgba(212, 235, 222, 0.94);
   display: flex;
   justify-content: space-between;
