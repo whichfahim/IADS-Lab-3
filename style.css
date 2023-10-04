@@ -222,7 +222,7 @@ h2 {
 
 .section-gallery--header {
   position: absolute;
-  top: 5rem;
+  top: 4rem;
   color: #fff;
 }
 
@@ -285,8 +285,4 @@ h2 {
   color: #fff;
   /* justify-content: center;
   align-items: center; */
-}
-
-.gallery-about {
-  /* width: 90%; */
 }
