@@ -260,36 +260,3 @@
   transform: scaleX(1);
   transform-origin: left;
 }
-/* Search Bar Styles */
-.search {
-  display: flex;
-  align-items: center;
-}
-
-#searchInput {
-  border: 1px solid transparent;
-  padding: 10px;
-  margin-right: 10px;
-  border-radius: 3px;
-  background-color: transparent;
-  color: black;
-}
-
-#searchInput:hover {
-  border: 1px solid black;
-}
-#searchButton {
-  background-color: rgba(190, 189, 200, 0.051);
-  font-size: 20px;
-  color: black;
-  border: none;
-  padding: 10px 15px;
-  border-radius: 3px;
-  cursor: pointer;
-  transition: 0.4s;
-}
-
-#searchButton:hover {
-  background-color: #0b86a266;
-  color: white;
-}
