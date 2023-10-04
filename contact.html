@@ -1,39 +1,106 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Our Funky HTML Page</title>
-    <meta name="description" content="Our first page" />
-    <meta name="keywords" content="html tutorial template" />
+    <title>Hogwarts Spell Club</title>
+    <meta name="description" content="Our club's home page" />
+    <meta name="keywords" content="landing page" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/bcb0799174.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <nav>
-      <a href="./index.html">Home</a> | <a href="./about.html">About</a> |
-      <a href="./contact.html">Contact Us</a> |
-    </nav>
-    <h1>Get in touch!</h1>
-    <form action="/action_page.php">
-      <label for="fname">First name:</label><br />
-      <input type="text" id="fname" name="fname" value="John" /><br />
-      <label for="lname">Last name:</label><br />
-      <input type="text" id="lname" name="lname" value="Doe" /><br /><br />
-      <label for="fname">Email:</label><br />
-      <input
-        type="email"
-        id="email"
-        name="email"
-        value="johndoe@gmail.com"
-      /><br />
-      <br />
-      <input type="submit" value="Submit" />
-    </form>
+    <section class="section-header">
+      <div>
+        <nav class="navigation">
+          <div class="navigation__logo-box">
+            <a href="index.html" class="navigation__link">
+              <picture class="navigation__logo">
+                <source
+                  srcset="
+                    https://1000logos.net/wp-content/uploads/2021/04/Hogwarts-Logo.png
+                  "
+                  media="(max-width:57.5em)"
+                />
+                <img
+                  src="https://1000logos.net/wp-content/uploads/2021/04/Hogwarts-Logo.png"
+                  alt="Logo"
+                  class="navigation__logo"
+                />
+              </picture>
+            </a>
+          </div>
+          <ul class="navigation__main-nav js--main-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li>
+              <a href="#"><ion-icon name="person-outline"></ion-icon></a>
+            </li>
+            <li>
+              <a href="#"><ion-icon name="cart-outline"></ion-icon></a>
+            </li>
+          </ul>
+          <a class="mobile-nav-icon js--nav-icon"
+            ><ion-icon class="menu-outline" name="menu-outline"></ion-icon
+          ></a>
+        </nav>
+      </div>
+      <div class="header--text-box">
+        <h1>Get in touch!</h1>
+        <form action="/action_page.php">
+          <label for="fname">First name:</label><br />
+          <input type="text" id="fname" name="fname" value="John" /><br />
+          <label for="lname">Last name:</label><br />
+          <input type="text" id="lname" name="lname" value="Doe" /><br /><br />
+          <label for="fname">Email:</label><br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            value="johndoe@gmail.com"
+          /><br />
+          <br />
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </section>
+    <div class="register">
+      <h3>Contact</h3>
+      <h4>Address:</h4>
+      <p>227 Haven drive, Windsor, ON N9B 2Y5</p>
+      <h4>Phone:</h4>
+      <p>+1 226 919 7526</p>
+      <h4>Email:</h4>
+      <p>pythonrocks@uwindsor.ca</p>
+    </div>
   </body>
-  <footer>
-    <h3>Contact</h3>
-    <h4>Address:</h4>
-    <p>227 Haven drive, Windsor, ON N9B 2Y5</p>
-    <h4>Phone:</h4>
-    <p>+1 226 919 7526</p>
-    <h4>Email:</h4>
-    <p>pythonrocks@uwindsor.ca</p>
+  <footer class="section-footer">
+    <div class="navigation__logo-box">
+      <a href="index.html" class="navigation__link">
+        <picture class="navigation__logo">
+          <source
+            srcset="
+              https://1000logos.net/wp-content/uploads/2021/04/Hogwarts-Logo.png
+            "
+            media="(max-width:57.5em)"
+          />
+          <img
+            src="https://1000logos.net/wp-content/uploads/2021/04/Hogwarts-Logo.png"
+            alt="Logo"
+            class="navigation__logo"
+          />
+        </picture>
+      </a>
+    </div>
+    <p class="footer-text">Copyright 2023. All rights reserved.</p>
   </footer>
+  
 </html>
